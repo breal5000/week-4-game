@@ -1,5 +1,9 @@
 .container {
     border-color: black;
-    border: dotted;
-    width: 400px;
+    border: solid;
+    width: 500px;
+}
+.panel-default {
+    width: 80px;
+    height: 80px;
 }
