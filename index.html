@@ -9,55 +9,44 @@
 </head>
 
 <body>
+    <div class="jumbotron text-center">
+        <h1>Crystal Collector</h1>
+    </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4" style="background-color: yellow">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h1>Crystal Collector!</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-6" style="background-color:bisque">
-                <div="panel panel-default" style="height: 400px">
-                    <div class="panel-body">
-                        <p>Rules of the game are thus: you click any key to begin. The computerwill generate a number between
-                            1 and 120. You must then click on a crystal in which the crystal's corresponding value will appear
-                            and begin to tally. to win, you must reach the random number without going over. If you tally
-                            up to the number you win, if you tally over that number, you lose. Good luck
-                        </p>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    <div class="row">
-        <div class="col-sm-4" style="background-color:aquamarine">
-            <div class="panel panel-default">
-                <div id="randomNumber"></div>
+            <div class="col-md-4">
+                <h3>Rules:</h3>
+                <p>Rules of the game are thus: you click any key to begin. The computerwill generate a number between 1 and
+                    120. You must then click on a crystal in which the crystal's corresponding value will appear and begin
+                    to tally. to win, you must reach the random number without going over. If you tally up to the number
+                    you win, if you tally over that number, you lose. Good luck</p>
             </div>
         </div>
     </div>
-    <div class="container">        
-        <div class="row">
-            <div class="col-sm-3" style="background-color: orange"></div>
-                <div id="crystalOne">text</div>
-            
-            <div class="col-sm-3" style="background-color: rgb(86, 94, 214)"></div>
-                <div id="crystalTwo">text</div>
-            
-            <div class="col-sm-3" style="background-color: rgb(160, 84, 33)"></div>
-                <div="crystalThree">text</div>
-            
-            <div class="col-sm-3" style="background-color: purple"></div>
-                <div id="crystalFour">text</div>
-            </div>    
+    <div class="panel">
+        <div class="panel panel-default">
+            <div class="panel-body">Random Number:</div>
         </div>
     </div>
-<script link href="assets/javascript/game.js"></script>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div="col-md-3">crystal1</div>
+                <div="col-md-3">crystal2</div>
+                    <div="col-md-3">crystal3</div>
+                        <div="col-md-3">crystal4</div>
+            </div>
+        </div>
+    <div class='panel'>
+        <div class="panel panel-default">
+            <div class="panel-body">You're score is:
+                <p>Score</p>
+            </div>
+            
+        </div>
+    </div>
+            <script link href="assets/javascript/game.js"></script>
 
 </html>
 </body>
