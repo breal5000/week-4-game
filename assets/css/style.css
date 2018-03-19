@@ -1,11 +1,8 @@
-.wrapper {
-    background: url("img/assets/images/concrete-texture.png");
-}
+
 .crystals {
     display: flex;
-    border: 1px solid black;
-    align-items: center; 
     justify-content: space-around;
+    align-items: center; 
 }
 .crystal {
     border: 1px solid red;
