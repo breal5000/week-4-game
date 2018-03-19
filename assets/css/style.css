@@ -1,18 +1,14 @@
-.body {
-    background-color:aliceblue;
+.wrapper {
+    background: url("img/assets/images/concrete-texture.png");
 }
-.container {
-    border-color: black;
-    border: solid;
-    width: 500px;
-    background-color: burlywood;
+.crystals {
+    display: flex;
+    border: 1px solid black;
+    align-items: center; 
+    justify-content: space-around;
 }
-.panel {
-    background-color: teal;
-    width: 100px;
-    height: 60px;
-}
-.container-fluid {
-    width: auto; 
-    
+.crystal {
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
 }
