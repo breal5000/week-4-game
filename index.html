@@ -4,39 +4,61 @@
     <meta charset="UTF-8">
     <title>Week-4-game</title>
     
-<link rel="reset" src="assets/css/reset.css">
+<link rel="reset" href="assets/css/reset.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="bootstrap" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-<div class="wrapper">
-    <div=class"Jumbotron">
-        <h1>Crystal Collector!</h1>
-    </div>
+<div class="container">
+    <div class="wrapper">
+        <div=class"Jumbotron">
+            <h1>Crystal Collector!</h1>
+        </div>
+        
         <div class="panel">
             <div class="panel panel-default">
                 <div class="panel-body">
                     <p>
-                        The rules of the game are thus: Click on the gems to add your score to the random generated score.
-                        if you go over the score, you lose. If you tally up the gems and you get the same score, you win.
+                        The rules of the game are thus: Click on the gems, which contain a random number. 
+                        Continue to click on the gems to tally up to the random generated score. You will want to add exactly up tho the number.
+                        If you go over the score, you lose. If you tally up the gems and you get the same score, you win.
                         Good luck!
                     </p>
                 </div>
             </div>
         </div>
-    <p id="result"></p>
-
-    <div class="crystals">
-        
+    <div class="row">
+        <div class="col-md-2">
+            <p id="result"></p>
+        </div>
     </div>
-    <p id="previous"></p>
-
-    <p id="win"></p>
-    <p id="lost"></p>
-</div>  
-    <script
+    
+    <div class="crystals">
+    
+    </div>
+    
+    <div class="container">
+        <div class="row">
+        
+            <div class="col-md-3">    
+                <p id="previous"></p>
+            </div>
+        
+            <div class="col-md-3">
+                <p id="win">Wins:</p>
+            </div>
+        
+            <div class="col-md-3">
+                <p id="lost">Losses:</p>
+            </div>
+        </div>    
+    </div>  
+</div>    
+    
+<script
     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
     crossorigin="anonymous"></script>
-    <script src="assets/javascript/game.js"></script>  
+<script src="assets/javascript/game.js"></script>  
 </html>
 </body>
