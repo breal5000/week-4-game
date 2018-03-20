@@ -1,26 +1,42 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <title>Week-4-game</title>
-    <link rel="reset" src="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" src="assets/css/style.css">
-    <link rel="bootstrap" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-  crossorigin="anonymous"></script>
+    <title>Week-4-game</title>
+    
+<link rel="reset" src="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-
-    <id="randomNumber"></id>
+<div class="wrapper">
+    <div=class"Jumbotron">
+        <h1>Crystal Collector!</h1>
+    </div>
+        <div class="panel">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <p>
+                        The rules of the game are thus: Click on the gems to add your score to the random generated score.
+                        if you go over the score, you lose. If you tally up the gems and you get the same score, you win.
+                        Good luck!
+                    </p>
+                </div>
+            </div>
+        </div>
+    <p id="result"></p>
 
     <div class="crystals">
         
     </div>
-</div>
-    <script src="assets/javascript/game.js"></script>  
+    <p id="previous"></p>
 
-      
+    <p id="win"></p>
+    <p id="lost"></p>
+</div>  
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>  
 </html>
 </body>
